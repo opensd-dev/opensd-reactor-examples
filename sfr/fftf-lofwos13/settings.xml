@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<settings>
+  <run_mode>transient</run_mode>
+  <tim_slot>1.0 51.0</tim_slot>
+  <verbosity>1</verbosity>
+  <alpha_mom>1.0</alpha_mom>
+  <alpha_ener>1.0</alpha_ener>
+  <alpha_heat>1.0</alpha_heat>
+  <no_main_iter>500</no_main_iter>
+  <no_flow_iter>300</no_flow_iter>
+  <temp_solve>False</temp_solve>
+  <flag_write>True</flag_write>
+  <T_ambient>300.0</T_ambient>
+  <conv_crit_flow>1e-07</conv_crit_flow>
+  <conv_crit_temp_SS>1e-10</conv_crit_temp_SS>
+</settings>
