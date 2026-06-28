@@ -1,5 +1,46 @@
 import opensd
 
+Na23 = opensd.Fluid(name="Na23")
+Na23.rhomass = 860.0
+Na23.molarmass = 23.0E-3
+Na23.viscosity = 3.75E-4
+Na23.cpmass = 1267.0
+Na23.cvmass = 1266.9
+Na23.conductivity = 70.0
+Na23.adiabatic_compressibility = 1.86E-10
+Na23.isothermal_compressibility = 1.86E-10
+Na23.boiling_point = 883.0 + 273.0
+Na23.enthalpy_vaporization = 2.23E6
+
+fluids = opensd.Fluids()
+fluids.append(Na23)
+fluids.export_to_xml()
+
+MOX23 = opensd.Solid(name="MOX23")
+MOX23.rhomass = 10600.0
+MOX23.cpmass = 430.0 * 0.5
+MOX23.conductivity = 3.0
+
+gap23 = opensd.Solid(name="gap23")
+gap23.rhomass = 1.0
+gap23.cpmass = 1000.0
+gap23.conductivity = 1.12
+
+gap24 = opensd.Solid(name="gap24")
+gap24.rhomass = 1.0
+gap24.cpmass = 1000.0
+gap24.conductivity = 2.24
+
+SS23 = opensd.Solid(name="SS23")
+SS23.rhomass = 7600.0
+SS23.cpmass = 590.0
+SS23.conductivity = 21.0
+
+solids = opensd.Solids()
+solids.append(MOX23)
+solids += [gap23, gap24, SS23]
+solids.export_to_xml()
+
 circuit1=opensd.Circuit(identifier="circuit1")
 circuit1.assign_fluid("Na23",fltype="incompressible",fllib="User")
 
@@ -11,21 +52,6 @@ bc2=circuit1.add_BC("bc2","node1",'P',100.E5)
 global bc3
 bc3=circuit1.add_BC("bc3","node7",'msource',-2191.7992)
 #bc3=circuit1.add_BC("bc3","node7",'P',376464.8406894)
-
-def fun2(flow_elem,WallTemp):
-    Pe = flow_elem.ther_gues.rhomass()*flow_elem.velocity*flow_elem.diameter*flow_elem.ther_gues.cpmass()/flow_elem.ther_gues.conductivity()
-    Nu = 5.0 + 0.025*Pe**0.8
-    h = Nu * flow_elem.ther_gues.conductivity() / flow_elem.diameter
-    return h
-
-def fun1(flow_elem,WallTemp):
-    Pe = flow_elem.ther_gues.rhomass()*flow_elem.velocity*flow_elem.diameter*flow_elem.ther_gues.cpmass()/flow_elem.ther_gues.conductivity()
-    P = 0.00726    #Pin Pitch
-    D = 0.005842   #Pin Diameter
-    Nu = 4.0 + 0.16*(P/D)**5.0 + 0.33*(P/D)**3.8*(Pe/100)**0.86
-            #13.066               #7.0961
-    b = Nu * flow_elem.ther_gues.conductivity() / flow_elem.diameter
-    return b
 
 FA=0.00433
 D=0.003238
@@ -81,28 +107,28 @@ for i in range(6):
         d=str(i+1)+str(k+1)
         opensd.SNode("snode"+d)
         if k==0:
-            g=opensd.HSlab("hslab"+d,"snode"+d,"hflux",0.0,"pipe"+d,"pipe",[fun1],GIFALAB[i],nlayers=3)
+            g=opensd.HSlab("hslab"+d,"snode"+d,"hflux",0.0,"pipe"+d,"pipe","fun1",GIFALAB[i],nlayers=3)
             p.append(g.add_layer(0.0024,0.0203,2,GIFALAB[i],'MOX23','User',heat_input=HILAB[i]))
             g.add_layer(1.4E-4,0.0203,2,FALABI[i],'gap24','User')
             g.add_layer(3.81E-4,0.0203,2,FALAB[i],'SS23','User')
         elif k==1:
-            g=opensd.HSlab("hslab"+d,"snode"+d,"hflux",0.0,"pipe"+d,"pipe",[fun1],GIFAAC[i],nlayers=3)
+            g=opensd.HSlab("hslab"+d,"snode"+d,"hflux",0.0,"pipe"+d,"pipe","fun1",GIFAAC[i],nlayers=3)
             p.append(g.add_layer(0.00247,0.9144,2,GIFAAC[i],'MOX23','User',10,heat_input=HIAC[i],AFF=AFF[i]))
             g.add_layer(7.E-5,0.9144,2,FAACI[i],'gap23','User')
             g.add_layer(3.81E-4,0.9144,2,FAAC[i],'SS23','User')
         elif k==2:
-            g=opensd.HSlab("hslab"+d,"snode"+d,"hflux",0.0,"pipe"+d,"pipe",[fun1],GIFAUAB[i],nlayers=3)
+            g=opensd.HSlab("hslab"+d,"snode"+d,"hflux",0.0,"pipe"+d,"pipe","fun1",GIFAUAB[i],nlayers=3)
             p.append(g.add_layer(0.0024,0.0203,2,GIFAUAB[i],'MOX23','User',heat_input=HIUAB[i]))
             g.add_layer(1.4E-4,0.0203,2,FAUABI[i],'gap24','User')
             g.add_layer(3.81E-4,0.0203,2,FAUAB[i],'SS23','User')
         elif k==3:
-            g=opensd.HSlab("hslab"+d,"pipe"+d,"pipe",[fun1],"snode"+d,"hflux",0.0,FAUN1[i],nlayers=1)
+            g=opensd.HSlab("hslab"+d,"pipe"+d,"pipe","fun1","snode"+d,"hflux",0.0,FAUN1[i],nlayers=1)
             g.add_layer(0.0018497,0.1448,2,FAUN1[i],'SS23','User')
         elif k==4:
-            g=opensd.HSlab("hslab"+d,"pipe"+d,"pipe",[fun1],"snode"+d,"hflux",0.0,FAUN2[i],nlayers=1)
+            g=opensd.HSlab("hslab"+d,"pipe"+d,"pipe","fun1","snode"+d,"hflux",0.0,FAUN2[i],nlayers=1)
             g.add_layer(8.625E-4,1.0924,2,FAUN2[i],'SS23','User')
         else:
-            g=opensd.HSlab("hslab"+d,"pipe"+d,"pipe",[fun2],"snode"+d,"hflux",0.0,FAUN3[i],nlayers=1)
+            g=opensd.HSlab("hslab"+d,"pipe"+d,"pipe","fun2","snode"+d,"hflux",0.0,FAUN3[i],nlayers=1)
             g.add_layer(0.027,0.28,2,FAUN3[i],'SS23','User')
 
 global pipe7
@@ -164,8 +190,8 @@ settings.conv_crit_temp_trans = 1.E-7
 
 settings.no_main_iter = 500
 settings.verbosity = 1
-settings.temp_solve = False
-settings.run_mode = "transient"
+settings.temp_solve = True
+settings.run_mode = "steady"
 settings.tim_slot = [[1., 51.0]]
 settings.flag_write = True
 settings.export_to_xml()
@@ -496,8 +522,10 @@ def powpk():
 def fun3(*comps):
     return comps[0].DTST
 
-geometry = opensd.Geometry([circuit1])
+geometry = opensd.Geometry([circuit1],hslab="all")
 geometry.export_to_xml()
+
+opensd.run(mpi_args=['mpiexec', '-n', '1'],opensd_exec='/mnt/c/codes/opensd/build/opensd')
 
 # action_setup.Action(None,None,rho_fb)
 # post.Calculate(rho_fb)

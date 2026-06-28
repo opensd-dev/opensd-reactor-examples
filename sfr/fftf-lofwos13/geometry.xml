@@ -77,4 +77,148 @@
     <bc identifier="bc2" node="node1" val="10000000.0" var="P"/>
     <bc identifier="bc3" node="node7" val="-2191.7992" var="msource"/>
   </circuit>
+  <hslab dcomp="pipe11" dtype="function" dval="fun1" dvar="pipe" identifier="hslab11" ninc="1" uarea="0.066" ucomp="snode11" utype="constant" uval="0.0" uvar="hflux">
+    <layer darea="0.066" heat_input="9752.7" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer darea="0.0703" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer darea="0.0808" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+  </hslab>
+  <hslab dcomp="pipe12" dtype="function" dval="fun1" dvar="pipe" identifier="hslab12" ninc="10" uarea="3.079" ucomp="snode12" utype="constant" uval="0.0" uvar="hflux">
+    <layer darea="3.079" heat_input="3316500" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.9144" thk_elem="0.00247"/>
+    <layer darea="3.167" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap23" thk_cros="0.9144" thk_elem="7e-05"/>
+    <layer darea="3.642" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.9144" thk_elem="0.000381"/>
+  </hslab>
+  <hslab dcomp="pipe13" dtype="function" dval="fun1" dvar="pipe" identifier="hslab13" ninc="1" uarea="0.066" ucomp="snode13" utype="constant" uval="0.0" uvar="hflux">
+    <layer darea="0.066" heat_input="14643" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer darea="0.07" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer darea="0.081" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+  </hslab>
+  <hslab dcomp="snode14" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab14" ninc="1" uarea="0.577" ucomp="pipe14" utype="function" uval="fun1" uvar="pipe">
+    <layer darea="0.577" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.1448" thk_elem="0.0018497"/>
+  </hslab>
+  <hslab dcomp="snode15" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab15" ninc="1" uarea="4.351" ucomp="pipe15" utype="function" uval="fun1" uvar="pipe">
+    <layer darea="4.351" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="1.0924" thk_elem="0.0008625"/>
+  </hslab>
+  <hslab dcomp="snode16" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab16" ninc="1" uarea="0.076336" ucomp="pipe16" utype="function" uval="fun2" uvar="pipe">
+    <layer darea="0.076336" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.28" thk_elem="0.027"/>
+  </hslab>
+  <hslab dcomp="pipe21" dtype="function" dval="fun1" dvar="pipe" identifier="hslab21" ninc="1" uarea="0.399" ucomp="snode21" utype="constant" uval="0.0" uvar="hflux">
+    <layer darea="0.399" heat_input="54413" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer darea="0.4218" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer darea="0.4851" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+  </hslab>
+  <hslab dcomp="pipe22" dtype="function" dval="fun1" dvar="pipe" identifier="hslab22" ninc="10" uarea="18.477" ucomp="snode22" utype="constant" uval="0.0" uvar="hflux">
+    <layer darea="18.477" heat_input="20275000" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.9144" thk_elem="0.00247"/>
+    <layer darea="19" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap23" thk_cros="0.9144" thk_elem="7e-05"/>
+    <layer darea="21.85" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.9144" thk_elem="0.000381"/>
+  </hslab>
+  <hslab dcomp="pipe23" dtype="function" dval="fun1" dvar="pipe" identifier="hslab23" ninc="1" uarea="0.399" ucomp="snode23" utype="constant" uval="0.0" uvar="hflux">
+    <layer darea="0.399" heat_input="84355" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer darea="0.422" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer darea="0.485" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+  </hslab>
+  <hslab dcomp="snode24" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab24" ninc="1" uarea="3.46" ucomp="pipe24" utype="function" uval="fun1" uvar="pipe">
+    <layer darea="3.46" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.1448" thk_elem="0.0018497"/>
+  </hslab>
+  <hslab dcomp="snode25" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab25" ninc="1" uarea="26.104" ucomp="pipe25" utype="function" uval="fun1" uvar="pipe">
+    <layer darea="26.104" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="1.0924" thk_elem="0.0008625"/>
+  </hslab>
+  <hslab dcomp="snode26" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab26" ninc="1" uarea="0.458016" ucomp="pipe26" utype="function" uval="fun2" uvar="pipe">
+    <layer darea="0.458016" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.28" thk_elem="0.027"/>
+  </hslab>
+  <hslab dcomp="pipe31" dtype="function" dval="fun1" dvar="pipe" identifier="hslab31" ninc="1" uarea="0.598" ucomp="snode31" utype="constant" uval="0.0" uvar="hflux">
+    <layer darea="0.598" heat_input="70593" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer darea="0.6327" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer darea="0.7276" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+  </hslab>
+  <hslab dcomp="pipe32" dtype="function" dval="fun1" dvar="pipe" identifier="hslab32" ninc="10" uarea="27.715" ucomp="snode32" utype="constant" uval="0.0" uvar="hflux">
+    <layer darea="27.715" heat_input="28279000" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.9144" thk_elem="0.00247"/>
+    <layer darea="28.5" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap23" thk_cros="0.9144" thk_elem="7e-05"/>
+    <layer darea="32.776" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.9144" thk_elem="0.000381"/>
+  </hslab>
+  <hslab dcomp="pipe33" dtype="function" dval="fun1" dvar="pipe" identifier="hslab33" ninc="1" uarea="0.598" ucomp="snode33" utype="constant" uval="0.0" uvar="hflux">
+    <layer darea="0.598" heat_input="121930" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer darea="0.633" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer darea="0.728" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+  </hslab>
+  <hslab dcomp="snode34" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab34" ninc="1" uarea="5.189" ucomp="pipe34" utype="function" uval="fun1" uvar="pipe">
+    <layer darea="5.189" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.1448" thk_elem="0.0018497"/>
+  </hslab>
+  <hslab dcomp="snode35" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab35" ninc="1" uarea="39.156" ucomp="pipe35" utype="function" uval="fun1" uvar="pipe">
+    <layer darea="39.156" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="1.0924" thk_elem="0.0008625"/>
+  </hslab>
+  <hslab dcomp="snode36" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab36" ninc="1" uarea="0.687024" ucomp="pipe36" utype="function" uval="fun2" uvar="pipe">
+    <layer darea="0.687024" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.28" thk_elem="0.027"/>
+  </hslab>
+  <hslab dcomp="pipe41" dtype="function" dval="fun1" dvar="pipe" identifier="hslab41" ninc="1" uarea="1.063" ucomp="snode41" utype="constant" uval="0.0" uvar="hflux">
+    <layer darea="1.063" heat_input="102010" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer darea="1.1248" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer darea="1.2936" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+  </hslab>
+  <hslab dcomp="pipe42" dtype="function" dval="fun1" dvar="pipe" identifier="hslab42" ninc="10" uarea="49.271" ucomp="snode42" utype="constant" uval="0.0" uvar="hflux">
+    <layer darea="49.271" heat_input="41711000" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.9144" thk_elem="0.00247"/>
+    <layer darea="50.668" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap23" thk_cros="0.9144" thk_elem="7e-05"/>
+    <layer darea="58.268" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.9144" thk_elem="0.000381"/>
+  </hslab>
+  <hslab dcomp="pipe43" dtype="function" dval="fun1" dvar="pipe" identifier="hslab43" ninc="1" uarea="1.063" ucomp="snode43" utype="constant" uval="0.0" uvar="hflux">
+    <layer darea="1.063" heat_input="188410" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer darea="1.125" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer darea="1.294" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+  </hslab>
+  <hslab dcomp="snode44" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab44" ninc="1" uarea="9.226" ucomp="pipe44" utype="function" uval="fun1" uvar="pipe">
+    <layer darea="9.226" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.1448" thk_elem="0.0018497"/>
+  </hslab>
+  <hslab dcomp="snode45" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab45" ninc="1" uarea="69.61" ucomp="pipe45" utype="function" uval="fun1" uvar="pipe">
+    <layer darea="69.61" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="1.0924" thk_elem="0.0008625"/>
+  </hslab>
+  <hslab dcomp="snode46" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab46" ninc="1" uarea="1.221376" ucomp="pipe46" utype="function" uval="fun2" uvar="pipe">
+    <layer darea="1.221376" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.28" thk_elem="0.027"/>
+  </hslab>
+  <hslab dcomp="pipe51" dtype="function" dval="fun1" dvar="pipe" identifier="hslab51" ninc="1" uarea="1.196" ucomp="snode51" utype="constant" uval="0.0" uvar="hflux">
+    <layer darea="1.196" heat_input="88518" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer darea="1.2654" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer darea="1.4553" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+  </hslab>
+  <hslab dcomp="pipe52" dtype="function" dval="fun1" dvar="pipe" identifier="hslab52" ninc="10" uarea="55.43" ucomp="snode52" utype="constant" uval="0.0" uvar="hflux">
+    <layer darea="55.43" heat_input="43479000" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.9144" thk_elem="0.00247"/>
+    <layer darea="65.551" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap23" thk_cros="0.9144" thk_elem="7e-05"/>
+    <layer darea="65.551" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.9144" thk_elem="0.000381"/>
+  </hslab>
+  <hslab dcomp="pipe53" dtype="function" dval="fun1" dvar="pipe" identifier="hslab53" ninc="1" uarea="1.196" ucomp="snode53" utype="constant" uval="0.0" uvar="hflux">
+    <layer darea="1.196" heat_input="176920" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer darea="1.265" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer darea="1.455" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+  </hslab>
+  <hslab dcomp="snode54" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab54" ninc="1" uarea="10.379" ucomp="pipe54" utype="function" uval="fun1" uvar="pipe">
+    <layer darea="10.379" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.1448" thk_elem="0.0018497"/>
+  </hslab>
+  <hslab dcomp="snode55" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab55" ninc="1" uarea="78.311" ucomp="pipe55" utype="function" uval="fun1" uvar="pipe">
+    <layer darea="78.311" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="1.0924" thk_elem="0.0008625"/>
+  </hslab>
+  <hslab dcomp="snode56" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab56" ninc="1" uarea="1.374048" ucomp="pipe56" utype="function" uval="fun2" uvar="pipe">
+    <layer darea="1.374048" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.28" thk_elem="0.027"/>
+  </hslab>
+  <hslab dcomp="pipe61" dtype="function" dval="fun1" dvar="pipe" identifier="hslab61" ninc="1" uarea="1.993" ucomp="snode61" utype="constant" uval="0.0" uvar="hflux">
+    <layer darea="1.993" heat_input="109640" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer darea="2.1091" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer darea="2.4254" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+  </hslab>
+  <hslab dcomp="pipe62" dtype="function" dval="fun1" dvar="pipe" identifier="hslab62" ninc="10" uarea="92.383" ucomp="snode62" utype="constant" uval="0.0" uvar="hflux">
+    <layer darea="92.383" heat_input="54461000" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.9144" thk_elem="0.00247"/>
+    <layer darea="95.002" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap23" thk_cros="0.9144" thk_elem="7e-05"/>
+    <layer darea="109.252" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.9144" thk_elem="0.000381"/>
+  </hslab>
+  <hslab dcomp="pipe63" dtype="function" dval="fun1" dvar="pipe" identifier="hslab63" ninc="1" uarea="1.993" ucomp="snode63" utype="constant" uval="0.0" uvar="hflux">
+    <layer darea="1.993" heat_input="231170" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer darea="2.109" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer darea="2.425" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+  </hslab>
+  <hslab dcomp="snode64" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab64" ninc="1" uarea="17.298" ucomp="pipe64" utype="function" uval="fun1" uvar="pipe">
+    <layer darea="17.298" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.1448" thk_elem="0.0018497"/>
+  </hslab>
+  <hslab dcomp="snode65" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab65" ninc="1" uarea="130.519" ucomp="pipe65" utype="function" uval="fun1" uvar="pipe">
+    <layer darea="130.519" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="1.0924" thk_elem="0.0008625"/>
+  </hslab>
+  <hslab dcomp="snode66" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab66" ninc="1" uarea="2.29008" ucomp="pipe66" utype="function" uval="fun2" uvar="pipe">
+    <layer darea="2.29008" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.28" thk_elem="0.027"/>
+  </hslab>
 </geometry>
