@@ -151,6 +151,7 @@ def csv_reader(filename):
 
 global series1
 series1=csv_reader("decay.csv")
+
 def power_trans(time,delt):
     if time == 0:
         powpk.PO = 0.986
@@ -164,22 +165,16 @@ def power_trans(time,delt):
                 p[m*3+n].heat_input = powpk.PO*HIUAB[m]
 
     pipe7.heat_input = powpk.PO * 7113740.
-# action_setup.Action(None,None,power_trans)
-
-# times  = [0.0, 20.0, 50.0]
-# values = [-753.6, 0.0, 0.0]
-# tdist = opensd.Tabular(times, values)
-
-# a1 = opensd.Action("ramp_bc2", "bc2", "bval", tdist)
-
-
 
 global series2
 series2=csv_reader("msource.csv")
 def mdot(time,delt):
     y=series2(time)
     return y
-# action_setup.Action("bc3","bval",mdot)
+a1 = opensd.Action("power_action", [p, pipe7], ["heat_input", "heat_input"], "power_trans")
+a2 = opensd.Action("mdot_action", "bc3", "bval", "mdot")
+actions = opensd.Actions([a1, a2])
+actions.export_to_xml()
 
 
 settings = opensd.Settings()
@@ -188,10 +183,10 @@ settings.conv_crit_ht = 1.E-7
 settings.conv_crit_flow = 1.E-7
 settings.conv_crit_temp_trans = 1.E-7
 
-settings.no_main_iter = 500
+settings.no_main_iter = 3000
 settings.verbosity = 1
 settings.temp_solve = True
-settings.run_mode = "steady"
+settings.run_mode = "transient"
 settings.tim_slot = [[1., 51.0]]
 settings.flag_write = True
 settings.export_to_xml()
@@ -524,6 +519,13 @@ def fun3(*comps):
 
 geometry = opensd.Geometry([circuit1],hslab="all")
 geometry.export_to_xml()
+
+post = opensd.Post([
+    opensd.Calculate("update_lumped_masses"),
+    opensd.Calculate("rho_fb"),
+    opensd.Calculate("powpk"),
+])
+post.export_to_xml()
 
 opensd.run(mpi_args=['mpiexec', '-n', '1'],opensd_exec='/mnt/c/codes/opensd/build/opensd')
 
