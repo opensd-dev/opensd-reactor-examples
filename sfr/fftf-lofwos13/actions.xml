@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<actions>
+  <action identifier="power_action">
+    <target id="hslab11.layer0" variable="heat_input"/>
+    <target id="hslab12.layer0" variable="heat_input"/>
+    <target id="hslab13.layer0" variable="heat_input"/>
+    <target id="hslab21.layer0" variable="heat_input"/>
+    <target id="hslab22.layer0" variable="heat_input"/>
+    <target id="hslab23.layer0" variable="heat_input"/>
+    <target id="hslab31.layer0" variable="heat_input"/>
+    <target id="hslab32.layer0" variable="heat_input"/>
+    <target id="hslab33.layer0" variable="heat_input"/>
+    <target id="hslab41.layer0" variable="heat_input"/>
+    <target id="hslab42.layer0" variable="heat_input"/>
+    <target id="hslab43.layer0" variable="heat_input"/>
+    <target id="hslab51.layer0" variable="heat_input"/>
+    <target id="hslab52.layer0" variable="heat_input"/>
+    <target id="hslab53.layer0" variable="heat_input"/>
+    <target id="hslab61.layer0" variable="heat_input"/>
+    <target id="hslab62.layer0" variable="heat_input"/>
+    <target id="hslab63.layer0" variable="heat_input"/>
+    <target id="pipe7" variable="heat_input"/>
+    <function name="power_trans"/>
+  </action>
+  <action identifier="mdot_action">
+    <target id="bc3" variable="bval"/>
+    <function name="mdot"/>
+  </action>
+</actions>

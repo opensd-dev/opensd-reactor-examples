@@ -4,221 +4,221 @@
     <flname>Na23</flname>
     <fltype>incompressible</fltype>
     <fllib>User</fllib>
-    <node elevation="0" fixed_var="T,P" heat_input="0.0" identifier="node1" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.160734199"/>
-    <node elevation="2.4519" fixed_var="msource" heat_input="0.0" identifier="node7" msource="-2191.7992" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.164849254"/>
+    <node elevation="0" fixed_var="T,P" heat_input="0.0" identifier="node1" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.163986462"/>
+    <node elevation="2.4519" fixed_var="msource" heat_input="0.0" identifier="node7" msource="-2191.7992" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.218853862"/>
     <node elevation="0.0" fixed_var="" heat_input="0.0" identifier="node11" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.00024191709999999997"/>
     <node elevation="0.9144" fixed_var="" heat_input="0.0" identifier="node12" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.00024191709999999997"/>
     <node elevation="0.9347" fixed_var="" heat_input="0.0" identifier="node13" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.0003574415"/>
     <node elevation="1.0795" fixed_var="" heat_input="0.0" identifier="node14" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.002678538"/>
     <node elevation="2.1719" fixed_var="" heat_input="0.0" identifier="node15" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.003094838"/>
-    <node elevation="0.0" fixed_var="" heat_input="0.0" identifier="node21" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.00024191709999999997"/>
-    <node elevation="0.9144" fixed_var="" heat_input="0.0" identifier="node22" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.00024191709999999997"/>
-    <node elevation="0.9347" fixed_var="" heat_input="0.0" identifier="node23" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.0003574415"/>
-    <node elevation="1.0795" fixed_var="" heat_input="0.0" identifier="node24" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.002678538"/>
-    <node elevation="2.1719" fixed_var="" heat_input="0.0" identifier="node25" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.003094838"/>
-    <node elevation="0.0" fixed_var="" heat_input="0.0" identifier="node31" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.00024191709999999997"/>
-    <node elevation="0.9144" fixed_var="" heat_input="0.0" identifier="node32" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.00024191709999999997"/>
-    <node elevation="0.9347" fixed_var="" heat_input="0.0" identifier="node33" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.0003574415"/>
-    <node elevation="1.0795" fixed_var="" heat_input="0.0" identifier="node34" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.002678538"/>
-    <node elevation="2.1719" fixed_var="" heat_input="0.0" identifier="node35" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.003094838"/>
-    <node elevation="0.0" fixed_var="" heat_input="0.0" identifier="node41" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.00024191709999999997"/>
-    <node elevation="0.9144" fixed_var="" heat_input="0.0" identifier="node42" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.00024191709999999997"/>
-    <node elevation="0.9347" fixed_var="" heat_input="0.0" identifier="node43" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.0003574415"/>
-    <node elevation="1.0795" fixed_var="" heat_input="0.0" identifier="node44" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.002678538"/>
-    <node elevation="2.1719" fixed_var="" heat_input="0.0" identifier="node45" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.003094838"/>
-    <node elevation="0.0" fixed_var="" heat_input="0.0" identifier="node51" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.00024191709999999997"/>
-    <node elevation="0.9144" fixed_var="" heat_input="0.0" identifier="node52" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.00024191709999999997"/>
-    <node elevation="0.9347" fixed_var="" heat_input="0.0" identifier="node53" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.0003574415"/>
-    <node elevation="1.0795" fixed_var="" heat_input="0.0" identifier="node54" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.002678538"/>
-    <node elevation="2.1719" fixed_var="" heat_input="0.0" identifier="node55" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.003094838"/>
-    <node elevation="0.0" fixed_var="" heat_input="0.0" identifier="node61" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.00024191709999999997"/>
-    <node elevation="0.9144" fixed_var="" heat_input="0.0" identifier="node62" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.00024191709999999997"/>
-    <node elevation="0.9347" fixed_var="" heat_input="0.0" identifier="node63" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.0003574415"/>
-    <node elevation="1.0795" fixed_var="" heat_input="0.0" identifier="node64" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.002678538"/>
-    <node elevation="2.1719" fixed_var="" heat_input="0.0" identifier="node65" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.003094838"/>
-    <pipe cfarea="0.00433" diameter="0.003238" dnode="node11" heat_input="0.0" identifier="pipe11" length="0.0203" ncell="1" roughness="1" unode="node1"/>
-    <pipe cfarea="0.00433" diameter="0.003238" dnode="node12" heat_input="0.0" identifier="pipe12" length="0.9144" ncell="10" roughness="1" unode="node11"/>
-    <pipe cfarea="0.00433" diameter="0.003238" dnode="node13" heat_input="0.0" identifier="pipe13" length="0.0203" ncell="1" roughness="1" unode="node12"/>
-    <pipe cfarea="0.00433" diameter="0.003238" dnode="node14" heat_input="0.0" identifier="pipe14" length="0.1448" ncell="1" roughness="1" unode="node13"/>
-    <pipe cfarea="0.00433" diameter="0.003238" dnode="node15" heat_input="0.0" identifier="pipe15" length="1.0924" ncell="1" roughness="1" unode="node14"/>
-    <pipe cfarea="0.0052128" diameter="0.07648207121336499" dnode="node7" heat_input="0.0" identifier="pipe16" length="0.28" ncell="1" roughness="1" unode="node15"/>
-    <pipe cfarea="0.025979999999999996" diameter="0.003238" dnode="node21" heat_input="0.0" identifier="pipe21" length="0.0203" ncell="1" roughness="1" unode="node1"/>
-    <pipe cfarea="0.025979999999999996" diameter="0.003238" dnode="node22" heat_input="0.0" identifier="pipe22" length="0.9144" ncell="10" roughness="1" unode="node21"/>
-    <pipe cfarea="0.025979999999999996" diameter="0.003238" dnode="node23" heat_input="0.0" identifier="pipe23" length="0.0203" ncell="1" roughness="1" unode="node22"/>
-    <pipe cfarea="0.025979999999999996" diameter="0.003238" dnode="node24" heat_input="0.0" identifier="pipe24" length="0.1448" ncell="1" roughness="1" unode="node23"/>
-    <pipe cfarea="0.025979999999999996" diameter="0.003238" dnode="node25" heat_input="0.0" identifier="pipe25" length="1.0924" ncell="1" roughness="1" unode="node24"/>
-    <pipe cfarea="0.0312768" diameter="0.07648207121336499" dnode="node7" heat_input="0.0" identifier="pipe26" length="0.28" ncell="1" roughness="1" unode="node25"/>
-    <pipe cfarea="0.03897" diameter="0.003238" dnode="node31" heat_input="0.0" identifier="pipe31" length="0.0203" ncell="1" roughness="1" unode="node1"/>
-    <pipe cfarea="0.03897" diameter="0.003238" dnode="node32" heat_input="0.0" identifier="pipe32" length="0.9144" ncell="10" roughness="1" unode="node31"/>
-    <pipe cfarea="0.03897" diameter="0.003238" dnode="node33" heat_input="0.0" identifier="pipe33" length="0.0203" ncell="1" roughness="1" unode="node32"/>
-    <pipe cfarea="0.03897" diameter="0.003238" dnode="node34" heat_input="0.0" identifier="pipe34" length="0.1448" ncell="1" roughness="1" unode="node33"/>
-    <pipe cfarea="0.03897" diameter="0.003238" dnode="node35" heat_input="0.0" identifier="pipe35" length="1.0924" ncell="1" roughness="1" unode="node34"/>
-    <pipe cfarea="0.046915200000000004" diameter="0.07648207121336499" dnode="node7" heat_input="0.0" identifier="pipe36" length="0.28" ncell="1" roughness="1" unode="node35"/>
-    <pipe cfarea="0.06928" diameter="0.003238" dnode="node41" heat_input="0.0" identifier="pipe41" length="0.0203" ncell="1" roughness="1" unode="node1"/>
-    <pipe cfarea="0.06928" diameter="0.003238" dnode="node42" heat_input="0.0" identifier="pipe42" length="0.9144" ncell="10" roughness="1" unode="node41"/>
-    <pipe cfarea="0.06928" diameter="0.003238" dnode="node43" heat_input="0.0" identifier="pipe43" length="0.0203" ncell="1" roughness="1" unode="node42"/>
-    <pipe cfarea="0.06928" diameter="0.003238" dnode="node44" heat_input="0.0" identifier="pipe44" length="0.1448" ncell="1" roughness="1" unode="node43"/>
-    <pipe cfarea="0.06928" diameter="0.003238" dnode="node45" heat_input="0.0" identifier="pipe45" length="1.0924" ncell="1" roughness="1" unode="node44"/>
-    <pipe cfarea="0.0834048" diameter="0.07648207121336499" dnode="node7" heat_input="0.0" identifier="pipe46" length="0.28" ncell="1" roughness="1" unode="node45"/>
-    <pipe cfarea="0.07794" diameter="0.003238" dnode="node51" heat_input="0.0" identifier="pipe51" length="0.0203" ncell="1" roughness="1" unode="node1"/>
-    <pipe cfarea="0.07794" diameter="0.003238" dnode="node52" heat_input="0.0" identifier="pipe52" length="0.9144" ncell="10" roughness="1" unode="node51"/>
-    <pipe cfarea="0.07794" diameter="0.003238" dnode="node53" heat_input="0.0" identifier="pipe53" length="0.0203" ncell="1" roughness="1" unode="node52"/>
-    <pipe cfarea="0.07794" diameter="0.003238" dnode="node54" heat_input="0.0" identifier="pipe54" length="0.1448" ncell="1" roughness="1" unode="node53"/>
-    <pipe cfarea="0.07794" diameter="0.003238" dnode="node55" heat_input="0.0" identifier="pipe55" length="1.0924" ncell="1" roughness="1" unode="node54"/>
-    <pipe cfarea="0.09383040000000001" diameter="0.07648207121336499" dnode="node7" heat_input="0.0" identifier="pipe56" length="0.28" ncell="1" roughness="1" unode="node55"/>
-    <pipe cfarea="0.1299" diameter="0.003238" dnode="node61" heat_input="0.0" identifier="pipe61" length="0.0203" ncell="1" roughness="1" unode="node1"/>
-    <pipe cfarea="0.1299" diameter="0.003238" dnode="node62" heat_input="0.0" identifier="pipe62" length="0.9144" ncell="10" roughness="1" unode="node61"/>
-    <pipe cfarea="0.1299" diameter="0.003238" dnode="node63" heat_input="0.0" identifier="pipe63" length="0.0203" ncell="1" roughness="1" unode="node62"/>
-    <pipe cfarea="0.1299" diameter="0.003238" dnode="node64" heat_input="0.0" identifier="pipe64" length="0.1448" ncell="1" roughness="1" unode="node63"/>
-    <pipe cfarea="0.1299" diameter="0.003238" dnode="node65" heat_input="0.0" identifier="pipe65" length="1.0924" ncell="1" roughness="1" unode="node64"/>
-    <pipe cfarea="0.156384" diameter="0.07648207121336499" dnode="node7" heat_input="0.0" identifier="pipe66" length="0.28" ncell="1" roughness="1" unode="node65"/>
-    <pipe cfarea="0.12982" diameter="0.003238" dnode="node7" heat_input="7113740.0" identifier="pipe7" length="2.4722" ncell="1" roughness="1" unode="node1"/>
+    <node elevation="0.0" fixed_var="" heat_input="0.0" identifier="node21" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.0014515025999999997"/>
+    <node elevation="0.9144" fixed_var="" heat_input="0.0" identifier="node22" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.0014515025999999997"/>
+    <node elevation="0.9347" fixed_var="" heat_input="0.0" identifier="node23" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.0021446489999999998"/>
+    <node elevation="1.0795" fixed_var="" heat_input="0.0" identifier="node24" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.016071228"/>
+    <node elevation="2.1719" fixed_var="" heat_input="0.0" identifier="node25" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.018569027999999998"/>
+    <node elevation="0.0" fixed_var="" heat_input="0.0" identifier="node31" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.0021772539"/>
+    <node elevation="0.9144" fixed_var="" heat_input="0.0" identifier="node32" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.0021772539"/>
+    <node elevation="0.9347" fixed_var="" heat_input="0.0" identifier="node33" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.0032169735"/>
+    <node elevation="1.0795" fixed_var="" heat_input="0.0" identifier="node34" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.024106842"/>
+    <node elevation="2.1719" fixed_var="" heat_input="0.0" identifier="node35" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.027853542000000002"/>
+    <node elevation="0.0" fixed_var="" heat_input="0.0" identifier="node41" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.0038706735999999996"/>
+    <node elevation="0.9144" fixed_var="" heat_input="0.0" identifier="node42" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.0038706735999999996"/>
+    <node elevation="0.9347" fixed_var="" heat_input="0.0" identifier="node43" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.005719064"/>
+    <node elevation="1.0795" fixed_var="" heat_input="0.0" identifier="node44" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.042856608"/>
+    <node elevation="2.1719" fixed_var="" heat_input="0.0" identifier="node45" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.049517408"/>
+    <node elevation="0.0" fixed_var="" heat_input="0.0" identifier="node51" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.0043545078"/>
+    <node elevation="0.9144" fixed_var="" heat_input="0.0" identifier="node52" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.0043545078"/>
+    <node elevation="0.9347" fixed_var="" heat_input="0.0" identifier="node53" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.006433947"/>
+    <node elevation="1.0795" fixed_var="" heat_input="0.0" identifier="node54" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.048213684"/>
+    <node elevation="2.1719" fixed_var="" heat_input="0.0" identifier="node55" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.055707084000000004"/>
+    <node elevation="0.0" fixed_var="" heat_input="0.0" identifier="node61" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.007257512999999998"/>
+    <node elevation="0.9144" fixed_var="" heat_input="0.0" identifier="node62" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.007257512999999998"/>
+    <node elevation="0.9347" fixed_var="" heat_input="0.0" identifier="node63" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.010723245"/>
+    <node elevation="1.0795" fixed_var="" heat_input="0.0" identifier="node64" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.08035613999999999"/>
+    <node elevation="2.1719" fixed_var="" heat_input="0.0" identifier="node65" msource="0.0" tenth_old="758805.033" tpres_old="10000000.0" ttemp_old="598.899" volume="0.09284513999999999"/>
+    <pipe Kforward="9.7689" cfarea="0.00433" diameter="0.003238" dnode="node11" fricopt="0.03" heat_input="0.0" identifier="pipe11" length="0.0203" ncell="1" roughness="1" unode="node1"/>
+    <pipe Kforward="0.0" cfarea="0.00433" diameter="0.003238" dnode="node12" fricopt="0.03" heat_input="0.0" identifier="pipe12" length="0.9144" ncell="10" roughness="1" unode="node11"/>
+    <pipe Kforward="0.0" cfarea="0.00433" diameter="0.003238" dnode="node13" fricopt="0.03" heat_input="0.0" identifier="pipe13" length="0.0203" ncell="1" roughness="1" unode="node12"/>
+    <pipe Kforward="0.0" cfarea="0.00433" diameter="0.003238" dnode="node14" fricopt="0.03" heat_input="0.0" identifier="pipe14" length="0.1448" ncell="1" roughness="1" unode="node13"/>
+    <pipe Kforward="0.0" cfarea="0.00433" diameter="0.003238" dnode="node15" fricopt="0.03" heat_input="0.0" identifier="pipe15" length="1.0924" ncell="1" roughness="1" unode="node14"/>
+    <pipe Kforward="0.0" cfarea="0.0052128" diameter="0.07648207121336499" dnode="node7" fricopt="0.03" heat_input="0.0" identifier="pipe16" length="0.28" ncell="1" roughness="1" unode="node15"/>
+    <pipe Kforward="10.23113" cfarea="0.025979999999999996" diameter="0.003238" dnode="node21" fricopt="0.03" heat_input="0.0" identifier="pipe21" length="0.0203" ncell="1" roughness="1" unode="node1"/>
+    <pipe Kforward="0.0" cfarea="0.025979999999999996" diameter="0.003238" dnode="node22" fricopt="0.03" heat_input="0.0" identifier="pipe22" length="0.9144" ncell="10" roughness="1" unode="node21"/>
+    <pipe Kforward="0.0" cfarea="0.025979999999999996" diameter="0.003238" dnode="node23" fricopt="0.03" heat_input="0.0" identifier="pipe23" length="0.0203" ncell="1" roughness="1" unode="node22"/>
+    <pipe Kforward="0.0" cfarea="0.025979999999999996" diameter="0.003238" dnode="node24" fricopt="0.03" heat_input="0.0" identifier="pipe24" length="0.1448" ncell="1" roughness="1" unode="node23"/>
+    <pipe Kforward="0.0" cfarea="0.025979999999999996" diameter="0.003238" dnode="node25" fricopt="0.03" heat_input="0.0" identifier="pipe25" length="1.0924" ncell="1" roughness="1" unode="node24"/>
+    <pipe Kforward="0.0" cfarea="0.0312768" diameter="0.07648207121336499" dnode="node7" fricopt="0.03" heat_input="0.0" identifier="pipe26" length="0.28" ncell="1" roughness="1" unode="node25"/>
+    <pipe Kforward="9.77031" cfarea="0.03897" diameter="0.003238" dnode="node31" fricopt="0.03" heat_input="0.0" identifier="pipe31" length="0.0203" ncell="1" roughness="1" unode="node1"/>
+    <pipe Kforward="0.0" cfarea="0.03897" diameter="0.003238" dnode="node32" fricopt="0.03" heat_input="0.0" identifier="pipe32" length="0.9144" ncell="10" roughness="1" unode="node31"/>
+    <pipe Kforward="0.0" cfarea="0.03897" diameter="0.003238" dnode="node33" fricopt="0.03" heat_input="0.0" identifier="pipe33" length="0.0203" ncell="1" roughness="1" unode="node32"/>
+    <pipe Kforward="0.0" cfarea="0.03897" diameter="0.003238" dnode="node34" fricopt="0.03" heat_input="0.0" identifier="pipe34" length="0.1448" ncell="1" roughness="1" unode="node33"/>
+    <pipe Kforward="0.0" cfarea="0.03897" diameter="0.003238" dnode="node35" fricopt="0.03" heat_input="0.0" identifier="pipe35" length="1.0924" ncell="1" roughness="1" unode="node34"/>
+    <pipe Kforward="0.0" cfarea="0.046915200000000004" diameter="0.07648207121336499" dnode="node7" fricopt="0.03" heat_input="0.0" identifier="pipe36" length="0.28" ncell="1" roughness="1" unode="node35"/>
+    <pipe Kforward="9.94184" cfarea="0.06928" diameter="0.003238" dnode="node41" fricopt="0.03" heat_input="0.0" identifier="pipe41" length="0.0203" ncell="1" roughness="1" unode="node1"/>
+    <pipe Kforward="0.0" cfarea="0.06928" diameter="0.003238" dnode="node42" fricopt="0.03" heat_input="0.0" identifier="pipe42" length="0.9144" ncell="10" roughness="1" unode="node41"/>
+    <pipe Kforward="0.0" cfarea="0.06928" diameter="0.003238" dnode="node43" fricopt="0.03" heat_input="0.0" identifier="pipe43" length="0.0203" ncell="1" roughness="1" unode="node42"/>
+    <pipe Kforward="0.0" cfarea="0.06928" diameter="0.003238" dnode="node44" fricopt="0.03" heat_input="0.0" identifier="pipe44" length="0.1448" ncell="1" roughness="1" unode="node43"/>
+    <pipe Kforward="0.0" cfarea="0.06928" diameter="0.003238" dnode="node45" fricopt="0.03" heat_input="0.0" identifier="pipe45" length="1.0924" ncell="1" roughness="1" unode="node44"/>
+    <pipe Kforward="0.0" cfarea="0.0834048" diameter="0.07648207121336499" dnode="node7" fricopt="0.03" heat_input="0.0" identifier="pipe46" length="0.28" ncell="1" roughness="1" unode="node45"/>
+    <pipe Kforward="11.84798" cfarea="0.07794" diameter="0.003238" dnode="node51" fricopt="0.03" heat_input="0.0" identifier="pipe51" length="0.0203" ncell="1" roughness="1" unode="node1"/>
+    <pipe Kforward="0.0" cfarea="0.07794" diameter="0.003238" dnode="node52" fricopt="0.03" heat_input="0.0" identifier="pipe52" length="0.9144" ncell="10" roughness="1" unode="node51"/>
+    <pipe Kforward="0.0" cfarea="0.07794" diameter="0.003238" dnode="node53" fricopt="0.03" heat_input="0.0" identifier="pipe53" length="0.0203" ncell="1" roughness="1" unode="node52"/>
+    <pipe Kforward="0.0" cfarea="0.07794" diameter="0.003238" dnode="node54" fricopt="0.03" heat_input="0.0" identifier="pipe54" length="0.1448" ncell="1" roughness="1" unode="node53"/>
+    <pipe Kforward="0.0" cfarea="0.07794" diameter="0.003238" dnode="node55" fricopt="0.03" heat_input="0.0" identifier="pipe55" length="1.0924" ncell="1" roughness="1" unode="node54"/>
+    <pipe Kforward="0.0" cfarea="0.09383040000000001" diameter="0.07648207121336499" dnode="node7" fricopt="0.03" heat_input="0.0" identifier="pipe56" length="0.28" ncell="1" roughness="1" unode="node55"/>
+    <pipe Kforward="25.21945" cfarea="0.1299" diameter="0.003238" dnode="node61" fricopt="0.03" heat_input="0.0" identifier="pipe61" length="0.0203" ncell="1" roughness="1" unode="node1"/>
+    <pipe Kforward="0.0" cfarea="0.1299" diameter="0.003238" dnode="node62" fricopt="0.03" heat_input="0.0" identifier="pipe62" length="0.9144" ncell="10" roughness="1" unode="node61"/>
+    <pipe Kforward="0.0" cfarea="0.1299" diameter="0.003238" dnode="node63" fricopt="0.03" heat_input="0.0" identifier="pipe63" length="0.0203" ncell="1" roughness="1" unode="node62"/>
+    <pipe Kforward="0.0" cfarea="0.1299" diameter="0.003238" dnode="node64" fricopt="0.03" heat_input="0.0" identifier="pipe64" length="0.1448" ncell="1" roughness="1" unode="node63"/>
+    <pipe Kforward="0.0" cfarea="0.1299" diameter="0.003238" dnode="node65" fricopt="0.03" heat_input="0.0" identifier="pipe65" length="1.0924" ncell="1" roughness="1" unode="node64"/>
+    <pipe Kforward="0.0" cfarea="0.156384" diameter="0.07648207121336499" dnode="node7" fricopt="0.03" heat_input="0.0" identifier="pipe66" length="0.28" ncell="1" roughness="1" unode="node65"/>
+    <pipe Kforward="147.6114" cfarea="0.12982" diameter="0.003238" dnode="node7" fricopt="0.03" heat_input="7113740.0" identifier="pipe7" length="2.4722" ncell="1" roughness="1" unode="node1"/>
     <bc identifier="bc1" node="node1" val="598.899" var="T"/>
     <bc identifier="bc2" node="node1" val="10000000.0" var="P"/>
     <bc identifier="bc3" node="node7" val="-2191.7992" var="msource"/>
   </circuit>
   <hslab dcomp="pipe11" dtype="function" dval="fun1" dvar="pipe" identifier="hslab11" ninc="1" uarea="0.066" ucomp="snode11" utype="constant" uval="0.0" uvar="hflux">
-    <layer darea="0.066" heat_input="9752.7" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
-    <layer darea="0.0703" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
-    <layer darea="0.0808" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+    <layer AFF="1.0" darea="0.066" heat_input="9752.7" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer AFF="1.0" darea="0.0703" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer AFF="1.0" darea="0.0808" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
   </hslab>
   <hslab dcomp="pipe12" dtype="function" dval="fun1" dvar="pipe" identifier="hslab12" ninc="10" uarea="3.079" ucomp="snode12" utype="constant" uval="0.0" uvar="hflux">
-    <layer darea="3.079" heat_input="3316500" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.9144" thk_elem="0.00247"/>
-    <layer darea="3.167" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap23" thk_cros="0.9144" thk_elem="7e-05"/>
-    <layer darea="3.642" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.9144" thk_elem="0.000381"/>
+    <layer AFF="0.077776 0.093363 0.10873 0.118943 0.123089 0.120939 0.112795 0.099371 0.081658 0.063335" darea="3.079" heat_input="3316500" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.9144" thk_elem="0.00247"/>
+    <layer AFF="0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1" darea="3.167" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap23" thk_cros="0.9144" thk_elem="7e-05"/>
+    <layer AFF="0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1" darea="3.642" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.9144" thk_elem="0.000381"/>
   </hslab>
   <hslab dcomp="pipe13" dtype="function" dval="fun1" dvar="pipe" identifier="hslab13" ninc="1" uarea="0.066" ucomp="snode13" utype="constant" uval="0.0" uvar="hflux">
-    <layer darea="0.066" heat_input="14643" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
-    <layer darea="0.07" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
-    <layer darea="0.081" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+    <layer AFF="1.0" darea="0.066" heat_input="14643" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer AFF="1.0" darea="0.07" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer AFF="1.0" darea="0.081" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
   </hslab>
   <hslab dcomp="snode14" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab14" ninc="1" uarea="0.577" ucomp="pipe14" utype="function" uval="fun1" uvar="pipe">
-    <layer darea="0.577" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.1448" thk_elem="0.0018497"/>
+    <layer AFF="1.0" darea="0.577" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.1448" thk_elem="0.0018497"/>
   </hslab>
   <hslab dcomp="snode15" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab15" ninc="1" uarea="4.351" ucomp="pipe15" utype="function" uval="fun1" uvar="pipe">
-    <layer darea="4.351" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="1.0924" thk_elem="0.0008625"/>
+    <layer AFF="1.0" darea="4.351" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="1.0924" thk_elem="0.0008625"/>
   </hslab>
   <hslab dcomp="snode16" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab16" ninc="1" uarea="0.076336" ucomp="pipe16" utype="function" uval="fun2" uvar="pipe">
-    <layer darea="0.076336" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.28" thk_elem="0.027"/>
+    <layer AFF="1.0" darea="0.076336" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.28" thk_elem="0.027"/>
   </hslab>
   <hslab dcomp="pipe21" dtype="function" dval="fun1" dvar="pipe" identifier="hslab21" ninc="1" uarea="0.399" ucomp="snode21" utype="constant" uval="0.0" uvar="hflux">
-    <layer darea="0.399" heat_input="54413" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
-    <layer darea="0.4218" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
-    <layer darea="0.4851" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+    <layer AFF="1.0" darea="0.399" heat_input="54413" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer AFF="1.0" darea="0.4218" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer AFF="1.0" darea="0.4851" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
   </hslab>
   <hslab dcomp="pipe22" dtype="function" dval="fun1" dvar="pipe" identifier="hslab22" ninc="10" uarea="18.477" ucomp="snode22" utype="constant" uval="0.0" uvar="hflux">
-    <layer darea="18.477" heat_input="20275000" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.9144" thk_elem="0.00247"/>
-    <layer darea="19" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap23" thk_cros="0.9144" thk_elem="7e-05"/>
-    <layer darea="21.85" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.9144" thk_elem="0.000381"/>
+    <layer AFF="0.078353 0.093682 0.108895 0.119016 0.123074 0.120839 0.11264 0.099237 0.081493 0.062772" darea="18.477" heat_input="20275000" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.9144" thk_elem="0.00247"/>
+    <layer AFF="0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1" darea="19" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap23" thk_cros="0.9144" thk_elem="7e-05"/>
+    <layer AFF="0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1" darea="21.85" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.9144" thk_elem="0.000381"/>
   </hslab>
   <hslab dcomp="pipe23" dtype="function" dval="fun1" dvar="pipe" identifier="hslab23" ninc="1" uarea="0.399" ucomp="snode23" utype="constant" uval="0.0" uvar="hflux">
-    <layer darea="0.399" heat_input="84355" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
-    <layer darea="0.422" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
-    <layer darea="0.485" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+    <layer AFF="1.0" darea="0.399" heat_input="84355" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer AFF="1.0" darea="0.422" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer AFF="1.0" darea="0.485" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
   </hslab>
   <hslab dcomp="snode24" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab24" ninc="1" uarea="3.46" ucomp="pipe24" utype="function" uval="fun1" uvar="pipe">
-    <layer darea="3.46" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.1448" thk_elem="0.0018497"/>
+    <layer AFF="1.0" darea="3.46" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.1448" thk_elem="0.0018497"/>
   </hslab>
   <hslab dcomp="snode25" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab25" ninc="1" uarea="26.104" ucomp="pipe25" utype="function" uval="fun1" uvar="pipe">
-    <layer darea="26.104" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="1.0924" thk_elem="0.0008625"/>
+    <layer AFF="1.0" darea="26.104" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="1.0924" thk_elem="0.0008625"/>
   </hslab>
   <hslab dcomp="snode26" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab26" ninc="1" uarea="0.458016" ucomp="pipe26" utype="function" uval="fun2" uvar="pipe">
-    <layer darea="0.458016" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.28" thk_elem="0.027"/>
+    <layer AFF="1.0" darea="0.458016" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.28" thk_elem="0.027"/>
   </hslab>
   <hslab dcomp="pipe31" dtype="function" dval="fun1" dvar="pipe" identifier="hslab31" ninc="1" uarea="0.598" ucomp="snode31" utype="constant" uval="0.0" uvar="hflux">
-    <layer darea="0.598" heat_input="70593" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
-    <layer darea="0.6327" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
-    <layer darea="0.7276" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+    <layer AFF="1.0" darea="0.598" heat_input="70593" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer AFF="1.0" darea="0.6327" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer AFF="1.0" darea="0.7276" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
   </hslab>
   <hslab dcomp="pipe32" dtype="function" dval="fun1" dvar="pipe" identifier="hslab32" ninc="10" uarea="27.715" ucomp="snode32" utype="constant" uval="0.0" uvar="hflux">
-    <layer darea="27.715" heat_input="28279000" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.9144" thk_elem="0.00247"/>
-    <layer darea="28.5" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap23" thk_cros="0.9144" thk_elem="7e-05"/>
-    <layer darea="32.776" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.9144" thk_elem="0.000381"/>
+    <layer AFF="0.080316 0.094493 0.109211 0.119091 0.122948 0.120487 0.112116 0.098895 0.081216 0.061226" darea="27.715" heat_input="28279000" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.9144" thk_elem="0.00247"/>
+    <layer AFF="0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1" darea="28.5" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap23" thk_cros="0.9144" thk_elem="7e-05"/>
+    <layer AFF="0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1" darea="32.776" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.9144" thk_elem="0.000381"/>
   </hslab>
   <hslab dcomp="pipe33" dtype="function" dval="fun1" dvar="pipe" identifier="hslab33" ninc="1" uarea="0.598" ucomp="snode33" utype="constant" uval="0.0" uvar="hflux">
-    <layer darea="0.598" heat_input="121930" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
-    <layer darea="0.633" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
-    <layer darea="0.728" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+    <layer AFF="1.0" darea="0.598" heat_input="121930" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer AFF="1.0" darea="0.633" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer AFF="1.0" darea="0.728" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
   </hslab>
   <hslab dcomp="snode34" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab34" ninc="1" uarea="5.189" ucomp="pipe34" utype="function" uval="fun1" uvar="pipe">
-    <layer darea="5.189" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.1448" thk_elem="0.0018497"/>
+    <layer AFF="1.0" darea="5.189" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.1448" thk_elem="0.0018497"/>
   </hslab>
   <hslab dcomp="snode35" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab35" ninc="1" uarea="39.156" ucomp="pipe35" utype="function" uval="fun1" uvar="pipe">
-    <layer darea="39.156" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="1.0924" thk_elem="0.0008625"/>
+    <layer AFF="1.0" darea="39.156" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="1.0924" thk_elem="0.0008625"/>
   </hslab>
   <hslab dcomp="snode36" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab36" ninc="1" uarea="0.687024" ucomp="pipe36" utype="function" uval="fun2" uvar="pipe">
-    <layer darea="0.687024" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.28" thk_elem="0.027"/>
+    <layer AFF="1.0" darea="0.687024" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.28" thk_elem="0.027"/>
   </hslab>
   <hslab dcomp="pipe41" dtype="function" dval="fun1" dvar="pipe" identifier="hslab41" ninc="1" uarea="1.063" ucomp="snode41" utype="constant" uval="0.0" uvar="hflux">
-    <layer darea="1.063" heat_input="102010" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
-    <layer darea="1.1248" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
-    <layer darea="1.2936" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+    <layer AFF="1.0" darea="1.063" heat_input="102010" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer AFF="1.0" darea="1.1248" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer AFF="1.0" darea="1.2936" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
   </hslab>
   <hslab dcomp="pipe42" dtype="function" dval="fun1" dvar="pipe" identifier="hslab42" ninc="10" uarea="49.271" ucomp="snode42" utype="constant" uval="0.0" uvar="hflux">
-    <layer darea="49.271" heat_input="41711000" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.9144" thk_elem="0.00247"/>
-    <layer darea="50.668" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap23" thk_cros="0.9144" thk_elem="7e-05"/>
-    <layer darea="58.268" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.9144" thk_elem="0.000381"/>
+    <layer AFF="0.081924 0.09595 0.110592 0.120322 0.123891 0.120782 0.1114 0.097186 0.078868 0.059086" darea="49.271" heat_input="41711000" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.9144" thk_elem="0.00247"/>
+    <layer AFF="0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1" darea="50.668" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap23" thk_cros="0.9144" thk_elem="7e-05"/>
+    <layer AFF="0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1" darea="58.268" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.9144" thk_elem="0.000381"/>
   </hslab>
   <hslab dcomp="pipe43" dtype="function" dval="fun1" dvar="pipe" identifier="hslab43" ninc="1" uarea="1.063" ucomp="snode43" utype="constant" uval="0.0" uvar="hflux">
-    <layer darea="1.063" heat_input="188410" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
-    <layer darea="1.125" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
-    <layer darea="1.294" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+    <layer AFF="1.0" darea="1.063" heat_input="188410" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer AFF="1.0" darea="1.125" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer AFF="1.0" darea="1.294" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
   </hslab>
   <hslab dcomp="snode44" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab44" ninc="1" uarea="9.226" ucomp="pipe44" utype="function" uval="fun1" uvar="pipe">
-    <layer darea="9.226" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.1448" thk_elem="0.0018497"/>
+    <layer AFF="1.0" darea="9.226" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.1448" thk_elem="0.0018497"/>
   </hslab>
   <hslab dcomp="snode45" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab45" ninc="1" uarea="69.61" ucomp="pipe45" utype="function" uval="fun1" uvar="pipe">
-    <layer darea="69.61" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="1.0924" thk_elem="0.0008625"/>
+    <layer AFF="1.0" darea="69.61" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="1.0924" thk_elem="0.0008625"/>
   </hslab>
   <hslab dcomp="snode46" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab46" ninc="1" uarea="1.221376" ucomp="pipe46" utype="function" uval="fun2" uvar="pipe">
-    <layer darea="1.221376" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.28" thk_elem="0.027"/>
+    <layer AFF="1.0" darea="1.221376" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.28" thk_elem="0.027"/>
   </hslab>
   <hslab dcomp="pipe51" dtype="function" dval="fun1" dvar="pipe" identifier="hslab51" ninc="1" uarea="1.196" ucomp="snode51" utype="constant" uval="0.0" uvar="hflux">
-    <layer darea="1.196" heat_input="88518" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
-    <layer darea="1.2654" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
-    <layer darea="1.4553" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+    <layer AFF="1.0" darea="1.196" heat_input="88518" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer AFF="1.0" darea="1.2654" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer AFF="1.0" darea="1.4553" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
   </hslab>
   <hslab dcomp="pipe52" dtype="function" dval="fun1" dvar="pipe" identifier="hslab52" ninc="10" uarea="55.43" ucomp="snode52" utype="constant" uval="0.0" uvar="hflux">
-    <layer darea="55.43" heat_input="43479000" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.9144" thk_elem="0.00247"/>
-    <layer darea="65.551" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap23" thk_cros="0.9144" thk_elem="7e-05"/>
-    <layer darea="65.551" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.9144" thk_elem="0.000381"/>
+    <layer AFF="0.084594 0.098532 0.113178 0.122793 0.126394 0.122085 0.109379 0.092788 0.074502 0.055754" darea="55.43" heat_input="43479000" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.9144" thk_elem="0.00247"/>
+    <layer AFF="0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1" darea="65.551" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap23" thk_cros="0.9144" thk_elem="7e-05"/>
+    <layer AFF="0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1" darea="65.551" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.9144" thk_elem="0.000381"/>
   </hslab>
   <hslab dcomp="pipe53" dtype="function" dval="fun1" dvar="pipe" identifier="hslab53" ninc="1" uarea="1.196" ucomp="snode53" utype="constant" uval="0.0" uvar="hflux">
-    <layer darea="1.196" heat_input="176920" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
-    <layer darea="1.265" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
-    <layer darea="1.455" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+    <layer AFF="1.0" darea="1.196" heat_input="176920" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer AFF="1.0" darea="1.265" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer AFF="1.0" darea="1.455" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
   </hslab>
   <hslab dcomp="snode54" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab54" ninc="1" uarea="10.379" ucomp="pipe54" utype="function" uval="fun1" uvar="pipe">
-    <layer darea="10.379" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.1448" thk_elem="0.0018497"/>
+    <layer AFF="1.0" darea="10.379" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.1448" thk_elem="0.0018497"/>
   </hslab>
   <hslab dcomp="snode55" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab55" ninc="1" uarea="78.311" ucomp="pipe55" utype="function" uval="fun1" uvar="pipe">
-    <layer darea="78.311" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="1.0924" thk_elem="0.0008625"/>
+    <layer AFF="1.0" darea="78.311" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="1.0924" thk_elem="0.0008625"/>
   </hslab>
   <hslab dcomp="snode56" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab56" ninc="1" uarea="1.374048" ucomp="pipe56" utype="function" uval="fun2" uvar="pipe">
-    <layer darea="1.374048" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.28" thk_elem="0.027"/>
+    <layer AFF="1.0" darea="1.374048" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.28" thk_elem="0.027"/>
   </hslab>
   <hslab dcomp="pipe61" dtype="function" dval="fun1" dvar="pipe" identifier="hslab61" ninc="1" uarea="1.993" ucomp="snode61" utype="constant" uval="0.0" uvar="hflux">
-    <layer darea="1.993" heat_input="109640" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
-    <layer darea="2.1091" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
-    <layer darea="2.4254" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+    <layer AFF="1.0" darea="1.993" heat_input="109640" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer AFF="1.0" darea="2.1091" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer AFF="1.0" darea="2.4254" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
   </hslab>
   <hslab dcomp="pipe62" dtype="function" dval="fun1" dvar="pipe" identifier="hslab62" ninc="10" uarea="92.383" ucomp="snode62" utype="constant" uval="0.0" uvar="hflux">
-    <layer darea="92.383" heat_input="54461000" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.9144" thk_elem="0.00247"/>
-    <layer darea="95.002" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap23" thk_cros="0.9144" thk_elem="7e-05"/>
-    <layer darea="109.252" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.9144" thk_elem="0.000381"/>
+    <layer AFF="0.08889 0.10169 0.115791 0.124753 0.126694 0.120845 0.106322 0.088871 0.07133 0.054815" darea="92.383" heat_input="54461000" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.9144" thk_elem="0.00247"/>
+    <layer AFF="0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1" darea="95.002" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap23" thk_cros="0.9144" thk_elem="7e-05"/>
+    <layer AFF="0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1" darea="109.252" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.9144" thk_elem="0.000381"/>
   </hslab>
   <hslab dcomp="pipe63" dtype="function" dval="fun1" dvar="pipe" identifier="hslab63" ninc="1" uarea="1.993" ucomp="snode63" utype="constant" uval="0.0" uvar="hflux">
-    <layer darea="1.993" heat_input="231170" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
-    <layer darea="2.109" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
-    <layer darea="2.425" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
+    <layer AFF="1.0" darea="1.993" heat_input="231170" layerno="0" nnodes="2" sollib="User" solname="MOX23" thk_cros="0.0203" thk_elem="0.0024"/>
+    <layer AFF="1.0" darea="2.109" heat_input="0.0" layerno="1" nnodes="2" sollib="User" solname="gap24" thk_cros="0.0203" thk_elem="0.00014"/>
+    <layer AFF="1.0" darea="2.425" heat_input="0.0" layerno="2" nnodes="2" sollib="User" solname="SS23" thk_cros="0.0203" thk_elem="0.000381"/>
   </hslab>
   <hslab dcomp="snode64" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab64" ninc="1" uarea="17.298" ucomp="pipe64" utype="function" uval="fun1" uvar="pipe">
-    <layer darea="17.298" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.1448" thk_elem="0.0018497"/>
+    <layer AFF="1.0" darea="17.298" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.1448" thk_elem="0.0018497"/>
   </hslab>
   <hslab dcomp="snode65" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab65" ninc="1" uarea="130.519" ucomp="pipe65" utype="function" uval="fun1" uvar="pipe">
-    <layer darea="130.519" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="1.0924" thk_elem="0.0008625"/>
+    <layer AFF="1.0" darea="130.519" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="1.0924" thk_elem="0.0008625"/>
   </hslab>
   <hslab dcomp="snode66" dtype="constant" dval="0.0" dvar="hflux" identifier="hslab66" ninc="1" uarea="2.29008" ucomp="pipe66" utype="function" uval="fun2" uvar="pipe">
-    <layer darea="2.29008" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.28" thk_elem="0.027"/>
+    <layer AFF="1.0" darea="2.29008" heat_input="0.0" layerno="0" nnodes="2" sollib="User" solname="SS23" thk_cros="0.28" thk_elem="0.027"/>
   </hslab>
 </geometry>

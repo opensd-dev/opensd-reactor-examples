@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<fluids>
+  <fluid id="1" name="Na23">
+    <cpmass value="1267.0" units="J/kg-K" />
+    <cvmass value="1266.9" units="J/kg-K" />
+    <rhomass value="860.0" units="kg/m3" />
+    <molarmass value="0.023" units="kg/mol" />
+    <viscosity value="0.000375" units="Pa-s" />
+    <conductivity value="70.0" units="W/m-K" />
+    <adiabatic_compressibility value="1.86e-10" units="1/Pa" />
+    <isothermal_compressibility value="1.86e-10" units="1/Pa" />
+    <boiling_point value="1156.0" units="K" />
+    <enthalpy_vaporization value="2230000.0" units="J/kg" />
+  </fluid>
+</fluids>

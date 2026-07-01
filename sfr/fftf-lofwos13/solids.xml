@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<solids>
+  <solid id="1" name="MOX23">
+    <cpmass value="215.0" units="J/kg-K" />
+    <rhomass value="10600.0" units="kg/m3" />
+    <conductivity value="3.0" units="W/m-K" />
+  </solid>
+  <solid id="2" name="gap23">
+    <cpmass value="1000.0" units="J/kg-K" />
+    <rhomass value="1.0" units="kg/m3" />
+    <conductivity value="1.12" units="W/m-K" />
+  </solid>
+  <solid id="3" name="gap24">
+    <cpmass value="1000.0" units="J/kg-K" />
+    <rhomass value="1.0" units="kg/m3" />
+    <conductivity value="2.24" units="W/m-K" />
+  </solid>
+  <solid id="4" name="SS23">
+    <cpmass value="590.0" units="J/kg-K" />
+    <rhomass value="7600.0" units="kg/m3" />
+    <conductivity value="21.0" units="W/m-K" />
+  </solid>
+</solids>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<post>
+  <calculate function="update_lumped_masses" identifier="update_lumped_masses"/>
+  <calculate function="rho_fb" identifier="rho_fb"/>
+  <calculate function="powpk" identifier="powpk"/>
+</post>
