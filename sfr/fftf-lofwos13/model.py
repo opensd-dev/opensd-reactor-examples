@@ -179,7 +179,7 @@ actions.export_to_xml()
 
 settings = opensd.Settings()
 
-settings.conv_crit_ht = 1.E-7
+settings.conv_crit_ht = 1.E-5
 settings.conv_crit_flow = 1.E-7
 settings.conv_crit_temp_trans = 1.E-7
 
@@ -187,7 +187,7 @@ settings.no_main_iter = 3000
 settings.verbosity = 1
 settings.temp_solve = True
 settings.run_mode = "transient"
-settings.tim_slot = [[1., 51.0]]
+settings.tim_slot = [[1., 300.0]]
 settings.flag_write = True
 settings.export_to_xml()
 
